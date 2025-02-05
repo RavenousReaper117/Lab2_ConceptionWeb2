@@ -23,6 +23,7 @@ body{
     padding: 0;
     font-family: "Roboto", serif;
     font-size: 18px;
+    background-color: #E3E4E4;
 }
 
 a{
@@ -37,6 +38,7 @@ COMPONENTS
 header{
     padding-top: 10px;
     padding-bottom: 10px;
+    background-color: white;
 }
 header .wrapper{
     max-width: 1080px;
@@ -49,6 +51,7 @@ header a{
     font-size: 16px;
     font-weight: bold;
     margin: 0px;
+    color: black;
 }
 
 header ul{
@@ -76,10 +79,69 @@ header button{
 /* Section Banniere */ 
 
 .banniere .wrapper{
-    width: 1280px;
     height: 450px;
-    background-image: url("../images/SECTION\ HERO.png");
+    background-image: url("../images/montagnes-alpes.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: bottom;
 }
 
 /* Section Information */
+.information .wrapper{
+    width: 987px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.information article{
+    background-color: white;
+    padding: 10px;
+    width: 320px;
+    border-bottom: #0E5EA1 5px inset;
+}
+
+.information article h3{
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.information article p {
+    font-size: 16px;
+    font-weight: normal;
+    text-align: left;
+}
+
+.information button{
+    border: none;
+    color: black;
+    background-color: #b7b7b7;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+
+.information button:hover{
+    border: none;
+    color: white;
+    background-color: #0E5EA1;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+}
 
