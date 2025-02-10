@@ -15,7 +15,6 @@ html{
 ---------------------------------------------------*/
 .wrapper{
     margin:0 auto;
-
 }
 
 body{
@@ -112,7 +111,7 @@ header button{
 
 /* Section Information */
 .information .wrapper{
-    width: 987px;
+    width: 1000px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
@@ -155,10 +154,7 @@ header button{
     cursor: pointer;
     border-radius: 10px;
     width: 150px;
-    
-    
 }
-
 
 .information button:hover{
     border: none;
@@ -174,4 +170,47 @@ header button{
     cursor: pointer;
     border-radius: 10px;
 }
+
+.information .button2, .information .button2:hover {
+    margin-top: 73px;
+}
+
+.information .button3, .information .button3:hover {
+    margin-top: 17px;
+}
+
+/* Section Pub*/
+aside {
+    margin-top: 40px;
+    width: 1000px;
+    height: 150px;
+    background-image: url("../images/escapade.jpg");
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Section Footer*/
+footer {
+    width: 1000px;
+    height: 72px;
+    background-color: black;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer .wrapper {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
 
